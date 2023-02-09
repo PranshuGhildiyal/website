@@ -9,7 +9,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "style" / "style.css"
 resume_file = current_dir / "images" / "CV.pdf"
 
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Pranshu Ghildiyal | DevOps", page_icon=":tada:", layout="wide")
 
 
 def load_lottieurl(url):
